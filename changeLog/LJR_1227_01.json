@@ -1,0 +1,39 @@
+{
+  "psrNo" : "LJR_1227_01",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 2,
+    "apiDesc" : null,
+    "apiNm" : "LJR_1227",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/test",
+    "taskGbnSeCd" : "C",
+    "apiId" : "LJR_1227",
+    "resourceList" : [ {
+      "summary" : null,
+      "gitRepoFullPath" : "LJR_1227/v1/LJR_1227.json",
+      "prcsOrder" : "1",
+      "apiRev" : "1",
+      "rscChgType" : "C",
+      "rscGbn" : "API",
+      "rscFileNm" : "LJR_1227.json",
+      "rscFullPath" : "LJR_1227/v1/r1/LJR_1227.json",
+      "rscNm" : "LJR_1227"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LJR_1227/v1/schema/test.json",
+      "prcsOrder" : "2",
+      "apiRev" : "2",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "test.json",
+      "rscFullPath" : "LJR_1227/v1/r2/schema/test.json",
+      "rscNm" : "test"
+    } ]
+  } ]
+}
