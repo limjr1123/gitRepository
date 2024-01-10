@@ -1,0 +1,39 @@
+{
+  "get" : {
+    "summary" : null,
+    "operationId" : "API1",
+    "responses" : {
+      "200" : {
+        "description" : "R1 RESPONSE",
+        "content" : {
+          "application/json" : {
+            "schema" : {
+              "$ref" : "#/components/schemas/DATASET_01"
+            }
+          }
+        }
+      }
+    },
+    "parameters" : [ {
+      "schema" : {
+        "type" : "array",
+        "items" : {
+          "type" : "string",
+          "enum" : [ "test" ]
+        }
+      },
+      "in" : "query",
+      "parameterSchema" : {
+        "type" : "array",
+        "items" : {
+          "type" : "string",
+          "enum" : [ "test" ]
+        }
+      },
+      "repeat" : true,
+      "name" : "API1",
+      "description" : null,
+      "required" : true
+    } ]
+  }
+}

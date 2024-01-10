@@ -1,0 +1,69 @@
+{
+  "psrNo" : "LASTEST_0110_01-1",
+  "chrgrId" : "system",
+  "apiList" : [ {
+    "apiTypeSeCd" : "03",
+    "sysId" : "TEST",
+    "groupId" : null,
+    "apiVer" : "v1",
+    "apiRev" : 5,
+    "apiDesc" : null,
+    "apiNm" : "LASTEST_0110_01",
+    "protocolSeCd" : "01",
+    "createCustomEndpointYn" : "N",
+    "nativeBasePath" : "/",
+    "taskGbnSeCd" : "C",
+    "apiId" : "LASTEST_0110_01",
+    "resourceList" : [ {
+      "summary" : null,
+      "gitRepoFullPath" : "LASTEST_0110_01/v1/LASTEST_0110_01.json",
+      "prcsOrder" : "1",
+      "apiRev" : "1",
+      "rscChgType" : "C",
+      "rscGbn" : "API",
+      "rscFileNm" : "LASTEST_0110_01.json",
+      "rscFullPath" : "LASTEST_0110_01/v1/r1/LASTEST_0110_01.json",
+      "rscNm" : "LASTEST_0110_01"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LASTEST_0110_01/v1/resource/R1/API1.json",
+      "prcsOrder" : "2",
+      "apiRev" : "5",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "API1.json",
+      "rscFullPath" : "LASTEST_0110_01/v1/r5/resource/R1/API1.json",
+      "rscNm" : "/R1/API1"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LASTEST_0110_01/v1/resource/R3/API1.json",
+      "prcsOrder" : "3",
+      "apiRev" : "5",
+      "rscChgType" : "C",
+      "rscGbn" : "RESOURCE",
+      "rscFileNm" : "API1.json",
+      "rscFullPath" : "LASTEST_0110_01/v1/r5/resource/R3/API1.json",
+      "rscNm" : "/R3/API1"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LASTEST_0110_01/v1/schema/DATASET_01.json",
+      "prcsOrder" : "4",
+      "apiRev" : "5",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "DATASET_01.json",
+      "rscFullPath" : "LASTEST_0110_01/v1/r5/schema/DATASET_01.json",
+      "rscNm" : "DATASET_01"
+    }, {
+      "summary" : null,
+      "gitRepoFullPath" : "LASTEST_0110_01/v1/schema/DATASET_02.json",
+      "prcsOrder" : "5",
+      "apiRev" : "5",
+      "rscChgType" : "C",
+      "rscGbn" : "SCHEMA",
+      "rscFileNm" : "DATASET_02.json",
+      "rscFullPath" : "LASTEST_0110_01/v1/r5/schema/DATASET_02.json",
+      "rscNm" : "DATASET_02"
+    } ]
+  } ]
+}

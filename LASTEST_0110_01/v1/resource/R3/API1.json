@@ -1,0 +1,27 @@
+{
+  "delete" : {
+    "summary" : null,
+    "operationId" : "test",
+    "parameters" : [ {
+      "schema" : {
+        "type" : "array",
+        "items" : {
+          "type" : "string",
+          "enum" : [ "test" ]
+        }
+      },
+      "in" : "query",
+      "parameterSchema" : {
+        "type" : "array",
+        "items" : {
+          "type" : "string",
+          "enum" : [ "test" ]
+        }
+      },
+      "repeat" : true,
+      "name" : "test",
+      "description" : null,
+      "required" : true
+    } ]
+  }
+}

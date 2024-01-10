@@ -1,0 +1,14 @@
+{
+  "type" : "object",
+  "properties" : {
+    "test" : {
+      "description" : "테스트 추가",
+      "type" : "array",
+      "items" : {
+        "description" : "테스트 추가",
+        "type" : "string"
+      }
+    }
+  },
+  "required" : [ "test" ]
+}
